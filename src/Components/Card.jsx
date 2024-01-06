@@ -27,7 +27,7 @@ const Card = () => {
             <div className="flex flex-col gap-3">
               <div className="flex items-center justify-between bg-light-red/5 md:p-2 p-3 rounded-md">
                 <div className="flex gap-2 ">
-                  <img src="/icon-reaction.svg" />
+                  <img src="/icon-reaction.svg" alt="reaction-icon" />
                   <p className="text-light-red font-[700] text-sm">Reaction</p>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ const Card = () => {
 
               <div className="flex items-center justify-between bg-orangey-yellow/5 md:p-2 p-3 rounded-md">
                 <div className="flex gap-2">
-                  <img src="/icon-memory.svg" />
+                  <img src="/icon-memory.svg" alt="memory-icon" />
                   <p className="text-orangey-yellow font-[700] text-sm">
                     Memory
                   </p>
@@ -55,7 +55,7 @@ const Card = () => {
 
               <div className="flex items-center justify-between bg-green-teal/5 md:p-2 p-3 rounded-md">
                 <div className="flex gap-2">
-                  <img src="/icon-verbal.svg" />
+                  <img src="/icon-verbal.svg" alt="verbal-icon" />
                   <p className="text-green-teal font-[700] text-sm">Verbal</p>
                 </div>
                 <div>
@@ -68,7 +68,7 @@ const Card = () => {
 
               <div className="flex items-center justify-between bg-cobalt-blue/5 md:p-2 p-3 rounded-md">
                 <div className="flex gap-2">
-                  <img src="/icon-visual.svg" />
+                  <img src="/icon-visual.svg" alt="visual-icon" />
                   <p className="text-cobalt-blue font-[700] text-sm">Visual</p>
                 </div>
                 <div>
@@ -80,7 +80,7 @@ const Card = () => {
               </div>
             </div>
             <div className="w-full flex items-center justify-center transition-all duration-200">
-              <button className="py-2 px-2 w-full rounded-full bg-dark-gray-blue text-white hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue transition-all duration-200 text-sm font-[700]">
+              <button className="md:py-2 py-3 px-2 w-full rounded-full bg-dark-gray-blue text-white hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue transition-all duration-200 text-sm font-[700]">
                 Continue
               </button>
             </div>
